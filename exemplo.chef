@@ -1,0 +1,9 @@
+#!/usr/bin/env chef-apply
+
+# File resource
+file "/tmp/exemplo.1" do # Path to the file
+  content "Um texto" # A string to write to the file. This will replace any previous content if set
+
+  action :create # Create this file (Default)
+end
+
