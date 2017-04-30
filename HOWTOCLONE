@@ -1,0 +1,2 @@
+#git clone file://${HOME}/git/show-edit-ldoc/.git
+#git remote add origin file://${HOME}/git/show-edit-ldoc/.git
